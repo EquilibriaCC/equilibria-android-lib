@@ -7,7 +7,7 @@ source script/env.sh
 cd $EXTERNAL_LIBS_BUILD_ROOT
 
 url="https://github.com/EquilibriaCC/Equilibria"
-version="master"
+version="android"
 
 if [ ! -d "Equilibria" ]; then
   git clone ${url} -b ${version}
